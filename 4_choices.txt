@@ -1,0 +1,876 @@
+*label start
+
+
+*comment -- Change the four words after *choice to the names of the three sets of choices you want to make.
+*comment -- Each must be a single word, and will be displayed as: 'Select a (yourwordhere)'
+*comment -- You can add any preamble text before the choice if you want
+
+*choice necklace earring tattoo teeth
+    #$!{alpha4[1]}
+        #$!{bravo4[1]}
+            #$!{charlie4[1]}
+                #$!{delta4[1]}
+                    *gosub write 1 1 1 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 1 1 1 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 1 1 1 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 1 1 1 4
+                    *goto next
+            #$!{charlie4[2]}
+                #$!{delta4[1]}
+                    *gosub write 1 1 2 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 1 1 2 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 1 1 2 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 1 1 2 4
+                    *goto next
+            #$!{charlie4[3]}
+                #$!{delta4[1]}
+                    *gosub write 1 1 3 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 1 1 3 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 1 1 3 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 1 1 3 4
+                    *goto next
+            #$!{charlie4[4]}
+                #$!{delta4[1]}
+                    *gosub write 1 1 4 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 1 1 4 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 1 1 4 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 1 1 4 4
+                    *goto next
+        #$!{bravo4[2]}
+            #$!{charlie4[1]}
+                #$!{delta4[1]}
+                    *gosub write 1 2 1 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 1 2 1 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 1 2 1 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 1 2 1 4
+                    *goto next
+            #$!{charlie4[2]}
+                #$!{delta4[1]}
+                    *gosub write 1 2 2 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 1 2 2 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 1 2 2 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 1 2 2 4
+                    *goto next
+            #$!{charlie4[3]}
+                #$!{delta4[1]}
+                    *gosub write 1 2 3 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 1 2 3 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 1 2 3 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 1 2 3 4
+                    *goto next
+            #$!{charlie4[4]}
+                #$!{delta4[1]}
+                    *gosub write 1 2 4 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 1 2 4 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 1 2 4 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 1 2 4 4
+                    *goto next
+        #$!{bravo4[3]}
+            #$!{charlie4[1]}
+                #$!{delta4[1]}
+                    *gosub write 1 3 1 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 1 3 1 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 1 3 1 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 1 3 1 4
+                    *goto next
+            #$!{charlie4[2]}
+                #$!{delta4[1]}
+                    *gosub write 1 3 2 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 1 3 2 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 1 3 2 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 1 3 2 4
+                    *goto next
+            #$!{charlie4[3]}
+                #$!{delta4[1]}
+                    *gosub write 1 3 3 1 
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 1 3 3 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 1 3 3 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 1 3 3 4
+                    *goto next
+            #$!{charlie4[4]}
+                #$!{delta4[1]}
+                    *gosub write 1 3 4 1 
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 1 3 4 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 1 3 4 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 1 3 4 4
+                    *goto next
+        #$!{bravo4[4]}
+            #$!{charlie4[1]}
+                #$!{delta4[1]}
+                    *gosub write 1 4 1 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 1 4 1 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 1 4 1 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 1 4 1 4
+                    *goto next
+            #$!{charlie4[2]}
+                #$!{delta4[1]}
+                    *gosub write 1 4 2 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 1 4 2 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 1 4 2 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 1 4 2 4
+                    *goto next
+            #$!{charlie4[3]}
+                #$!{delta4[1]}
+                    *gosub write 1 4 3 1 
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 1 4 3 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 1 4 3 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 1 4 3 4
+                    *goto next
+            #$!{charlie4[4]}
+                #$!{delta4[1]}
+                    *gosub write 1 4 4 1 
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 1 4 4 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 1 4 4 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 1 4 4 4
+                    *goto next
+    #$!{alpha4[2]}
+        #$!{bravo4[1]}
+            #$!{charlie4[1]}
+                #$!{delta4[1]}
+                    *gosub write 2 1 1 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 2 1 1 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 2 1 1 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 2 1 1 4
+                    *goto next
+            #$!{charlie4[2]}
+                #$!{delta4[1]}
+                    *gosub write 2 1 2 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 2 1 2 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 2 1 2 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 2 1 2 4
+                    *goto next
+            #$!{charlie4[3]}
+                #$!{delta4[1]}
+                    *gosub write 2 1 3 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 2 1 3 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 2 1 3 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 2 1 3 4
+                    *goto next
+            #$!{charlie4[4]}
+                #$!{delta4[1]}
+                    *gosub write 2 1 4 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 2 1 4 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 2 1 4 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 2 1 4 4
+                    *goto next
+        #$!{bravo4[2]}
+            #$!{charlie4[1]}
+                #$!{delta4[1]}
+                    *gosub write 2 2 1 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 2 2 1 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 2 2 1 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 2 2 1 4
+                    *goto next
+            #$!{charlie4[2]}
+                #$!{delta4[1]}
+                    *gosub write 2 2 2 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 2 2 2 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 2 2 2 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 2 2 2 4
+                    *goto next
+            #$!{charlie4[3]}
+                #$!{delta4[1]}
+                    *gosub write 2 2 3 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 2 2 3 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 2 2 3 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 2 2 3 4
+                    *goto next
+            #$!{charlie4[4]}
+                #$!{delta4[1]}
+                    *gosub write 2 2 4 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 2 2 4 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 2 2 4 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 2 2 4 4
+                    *goto next
+        #$!{bravo4[3]}
+            #$!{charlie4[1]}
+                #$!{delta4[1]}
+                    *gosub write 2 3 1 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 2 3 1 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 2 3 1 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 2 3 1 4
+                    *goto next
+            #$!{charlie4[2]}
+                #$!{delta4[1]}
+                    *gosub write 2 3 2 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 2 3 2 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 2 3 2 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 2 3 2 4
+                    *goto next
+            #$!{charlie4[3]}
+                #$!{delta4[1]}
+                    *gosub write 2 3 3 1 
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 2 3 3 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 2 3 3 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 2 3 3 4
+                    *goto next
+            #$!{charlie4[4]}
+                #$!{delta4[1]}
+                    *gosub write 2 3 4 1 
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 2 3 4 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 2 3 4 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 2 3 4 4
+                    *goto next
+        #$!{bravo4[4]}
+            #$!{charlie4[1]}
+                #$!{delta4[1]}
+                    *gosub write 2 3 1 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 2 3 1 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 2 3 1 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 2 3 1 4
+                    *goto next
+            #$!{charlie4[2]}
+                #$!{delta4[1]}
+                    *gosub write 2 3 2 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 2 3 2 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 2 3 2 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 2 3 2 4
+                    *goto next
+            #$!{charlie4[3]}
+                #$!{delta4[1]}
+                    *gosub write 2 3 3 1 
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 2 3 3 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 2 3 3 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 2 3 3 4
+                    *goto next
+            #$!{charlie4[4]}
+                #$!{delta4[1]}
+                    *gosub write 2 3 4 1 
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 2 3 4 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 2 3 4 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 2 3 4 4
+                    *goto next
+    #$!{alpha4[3]}
+        #$!{bravo4[1]}
+            #$!{charlie4[1]}
+                #$!{delta4[1]}
+                    *gosub write 3 1 1 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 3 1 1 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 3 1 1 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 3 1 1 4
+                    *goto next
+            #$!{charlie4[2]}
+                #$!{delta4[1]}
+                    *gosub write 3 1 2 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 3 1 2 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 3 1 2 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 3 1 2 4
+                    *goto next
+            #$!{charlie4[3]}
+                #$!{delta4[1]}
+                    *gosub write 3 1 3 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 3 1 3 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 3 1 3 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 3 1 3 4
+                    *goto next
+            #$!{charlie4[4]}
+                #$!{delta4[1]}
+                    *gosub write 3 1 4 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 3 1 4 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 3 1 4 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 3 1 4 4
+                    *goto next
+        #$!{bravo4[2]}
+            #$!{charlie4[1]}
+                #$!{delta4[1]}
+                    *gosub write 3 2 1 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 3 2 1 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 3 2 1 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 3 2 1 4
+                    *goto next
+            #$!{charlie4[2]}
+                #$!{delta4[1]}
+                    *gosub write 3 2 2 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 3 2 2 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 3 2 2 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 3 2 2 4
+                    *goto next
+            #$!{charlie4[3]}
+                #$!{delta4[1]}
+                    *gosub write 3 2 3 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 3 2 3 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 3 2 3 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 3 2 3 4
+                    *goto next
+            #$!{charlie4[4]}
+                #$!{delta4[1]}
+                    *gosub write 3 2 4 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 3 2 4 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 3 2 4 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 3 2 4 4
+                    *goto next
+        #$!{bravo4[3]}
+            #$!{charlie4[1]}
+                #$!{delta4[1]}
+                    *gosub write 3 3 1 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 3 3 1 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 3 3 1 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 3 3 1 4
+                    *goto next
+            #$!{charlie4[2]}
+                #$!{delta4[1]}
+                    *gosub write 3 3 2 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 3 3 2 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 3 3 2 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 3 3 2 4
+                    *goto next
+            #$!{charlie4[3]}
+                #$!{delta4[1]}
+                    *gosub write 3 3 3 1 
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 3 3 3 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 3 3 3 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 3 3 3 4
+                    *goto next
+            #$!{charlie4[4]}
+                #$!{delta4[1]}
+                    *gosub write 3 3 4 1 
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 3 3 4 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 3 3 4 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 3 3 4 4
+                    *goto next
+        #$!{bravo4[4]}
+            #$!{charlie4[1]}
+                #$!{delta4[1]}
+                    *gosub write 3 3 1 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 3 3 1 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 3 3 1 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 3 3 1 4
+                    *goto next
+            #$!{charlie4[2]}
+                #$!{delta4[1]}
+                    *gosub write 3 3 2 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 3 3 2 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 3 3 2 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 3 3 2 4
+                    *goto next
+            #$!{charlie4[3]}
+                #$!{delta4[1]}
+                    *gosub write 3 3 3 1 
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 3 3 3 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 3 3 3 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 3 3 3 4
+                    *goto next
+            #$!{charlie4[4]}
+                #$!{delta4[1]}
+                    *gosub write 3 3 4 1 
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 3 3 4 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 3 3 4 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 3 3 4 4
+                    *goto next
+    #$!{alpha4[4]}
+        #$!{bravo4[1]}
+            #$!{charlie4[1]}
+                #$!{delta4[1]}
+                    *gosub write 4 1 1 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 4 1 1 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 4 1 1 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 4 1 1 4
+                    *goto next
+            #$!{charlie4[2]}
+                #$!{delta4[1]}
+                    *gosub write 4 1 2 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 4 1 2 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 4 1 2 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 4 1 2 4
+                    *goto next
+            #$!{charlie4[3]}
+                #$!{delta4[1]}
+                    *gosub write 4 1 3 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 4 1 3 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 4 1 3 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 4 1 3 4
+                    *goto next
+            #$!{charlie4[4]}
+                #$!{delta4[1]}
+                    *gosub write 4 1 4 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 4 1 4 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 4 1 4 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 4 1 4 4
+                    *goto next
+        #$!{bravo4[2]}
+            #$!{charlie4[1]}
+                #$!{delta4[1]}
+                    *gosub write 4 2 1 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 4 2 1 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 4 2 1 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 4 2 1 4
+                    *goto next
+            #$!{charlie4[2]}
+                #$!{delta4[1]}
+                    *gosub write 4 2 2 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 4 2 2 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 4 2 2 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 4 2 2 4
+                    *goto next
+            #$!{charlie4[3]}
+                #$!{delta4[1]}
+                    *gosub write 4 2 3 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 4 2 3 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 4 2 3 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 4 2 3 4
+                    *goto next
+            #$!{charlie4[4]}
+                #$!{delta4[1]}
+                    *gosub write 4 2 4 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 4 2 4 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 4 2 4 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 4 2 4 4
+                    *goto next
+        #$!{bravo4[3]}
+            #$!{charlie4[1]}
+                #$!{delta4[1]}
+                    *gosub write 4 3 1 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 4 3 1 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 4 3 1 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 4 3 1 4
+                    *goto next
+            #$!{charlie4[2]}
+                #$!{delta4[1]}
+                    *gosub write 4 3 2 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 4 3 2 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 4 3 2 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 4 3 2 4
+                    *goto next
+            #$!{charlie4[3]}
+                #$!{delta4[1]}
+                    *gosub write 4 3 3 1 
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 4 3 3 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 4 3 3 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 4 3 3 4
+                    *goto next
+            #$!{charlie4[4]}
+                #$!{delta4[1]}
+                    *gosub write 4 3 4 1 
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 4 3 4 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 4 3 4 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 4 3 4 4
+                    *goto next
+        #$!{bravo4[4]}
+            #$!{charlie4[1]}
+                #$!{delta4[1]}
+                    *gosub write 4 3 1 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 4 3 1 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 4 3 1 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 4 3 1 4
+                    *goto next
+            #$!{charlie4[2]}
+                #$!{delta4[1]}
+                    *gosub write 4 3 2 1
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 4 3 2 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 4 3 2 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 4 3 2 4
+                    *goto next
+            #$!{charlie4[3]}
+                #$!{delta4[1]}
+                    *gosub write 4 3 3 1 
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 4 3 3 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 4 3 3 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 4 3 3 4
+                    *goto next
+            #$!{charlie4[4]}
+                #$!{delta4[1]}
+                    *gosub write 4 3 4 1 
+                    *goto next
+                #$!{delta4[2]}
+                    *gosub write 4 3 4 2
+                    *goto next
+                #$!{delta4[3]}
+                    *gosub write 4 3 4 3
+                    *goto next
+                #$!{delta4[4]}
+                    *gosub write 4 3 4 4
+                    *goto next
+
+*comment -- WRITE ------------------------------------------
+*comment -- Sets the variables to the corresponding array value.
+*comment -- (a:number, b:number, c:number, d:number) -> (return_a:any?, return_b:any?, return_c:any?, return_d:any?)
+*label write
+*params a b c d
+
+*set return_a (alpha4[a])
+*set return_b (bravo4[b])
+*set return_c (charlie4[c])
+*set return_d (delta4[d])
+
+*return
+
+*label next
+*return

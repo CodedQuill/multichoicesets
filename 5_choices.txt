@@ -1,0 +1,3501 @@
+*label start
+
+
+*comment -- Change the five words after *choice to the names of the three sets of choices you want to make.
+*comment -- Each must be a single word, and will be displayed as: 'Select a (yourwordhere)'
+*comment -- You can add any preamble text before the choice if you want
+
+*choice haircolor eyecolor skincolor nailcolor aura
+    #$!{alpha5[1]}
+        #$!{bravo5[1]}
+            #$!{charlie5[1]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 1 1 1 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 1 1 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 1 1 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 1 1 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 1 1 1 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 1 1 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 1 1 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 1 1 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 1 1 1 3 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 1 1 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 1 1 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 1 1 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 1 1 1 4 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 1 1 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 1 1 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 1 1 4 4
+                        *goto next
+            #$!{charlie5[2]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 1 1 2 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 1 2 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 1 2 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 1 2 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 1 1 2 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 1 2 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 1 2 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 1 2 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 1 1 2 3 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 1 2 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 1 2 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 1 2 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 1 1 2 4 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 1 2 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 1 2 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 1 2 4 4
+                        *goto next
+            #$!{charlie5[3]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 1 1 3 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 1 3 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 1 3 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 1 3 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 1 1 3 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 1 3 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 1 3 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 1 3 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 1 1 3 3 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 1 3 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 1 3 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 1 3 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 1 1 3 4 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 1 3 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 1 3 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 1 3 4 4
+                        *goto next
+            #$!{charlie5[4]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 1 1 4 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 1 4 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 1 4 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 1 4 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 1 1 4 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 1 4 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 1 4 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 1 4 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 1 1 4 3 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 1 4 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 1 4 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 1 4 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 1 1 4 4 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 1 4 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 1 4 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 1 4 4 4
+                        *goto next
+        #$!{bravo5[2]}
+            #$!{charlie5[1]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 1 2 1 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 2 1 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 2 1 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 2 1 1 4
+                            *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 1 2 1 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 2 1 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 2 1 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 2 1 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 1 2 1 3 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 2 1 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 2 1 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 2 1 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 1 2 1 4 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 2 1 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 2 1 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 2 1 4 4
+                        *goto next
+            #$!{charlie5[2]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 1 2 2 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 2 2 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 2 2 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 2 2 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 1 2 2 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 2 2 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 2 2 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 2 2 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 1 2 2 3 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 2 2 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 2 2 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 2 2 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 1 2 2 4 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 2 2 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 2 2 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 2 2 4 4
+                        *goto next
+            #$!{charlie5[3]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 1 2 3 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 2 3 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 2 3 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 2 3 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 1 2 3 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 2 3 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 2 3 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 2 3 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 1 2 3 3 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 2 3 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 2 3 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 2 3 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 1 2 3 4 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 2 3 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 2 3 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 2 3 4 4
+                        *goto next
+            #$!{charlie5[4]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 1 2 3 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 2 3 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 2 3 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 2 3 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 1 2 3 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 2 3 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 2 3 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 2 3 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 1 2 3 3 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 2 3 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 2 3 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 2 3 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 1 2 3 4 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 2 3 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 2 3 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 2 3 4 4
+                        *goto next
+        #$!{bravo5[3]}
+            #$!{charlie5[1]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 1 3 1 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 3 1 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 3 1 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 3 1 1 4
+                            *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 1 3 1 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 3 1 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 3 1 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 3 1 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 1 3 1 3 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 3 1 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 3 1 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 3 1 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 1 3 1 4 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 3 1 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 3 1 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 3 1 4 4
+                        *goto next
+            #$!{charlie5[2]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 1 3 2 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 3 2 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 3 2 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 3 2 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 1 3 2 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 3 2 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 3 2 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 3 2 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 1 3 2 3 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 3 2 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 3 2 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 3 2 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 1 3 2 4 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 3 2 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 3 2 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 3 2 4 4
+                        *goto next
+            #$!{charlie5[3]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 1 3 3 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 3 3 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 3 3 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 3 3 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 1 3 3 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 3 3 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 3 3 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 3 3 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 1 3 3 3 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 3 3 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 3 3 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 3 3 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 1 3 3 4 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 3 3 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 3 3 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 3 3 4 4
+                        *goto next
+            #$!{charlie5[4]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 1 3 3 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 3 3 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 3 3 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 3 3 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 1 3 3 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 3 3 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 3 3 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 3 3 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 1 3 3 3 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 3 3 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 3 3 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 3 3 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 1 3 3 4 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 3 3 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 3 3 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 3 3 4 4
+                        *goto next
+        #$!{bravo5[4]}
+            #$!{charlie5[1]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 1 4 1 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 4 1 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 4 1 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 4 1 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 1 4 1 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 4 1 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 4 1 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 4 1 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 1 4 1 3 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 4 1 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 4 1 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 4 1 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 1 4 1 4 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 4 1 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 4 1 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 4 1 4 4
+                        *goto next
+            #$!{charlie5[2]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 1 4 2 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 4 2 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 4 2 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 4 2 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 1 4 2 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 4 2 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 4 2 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 4 2 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 1 4 2 3 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 4 2 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 4 2 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 4 2 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 1 4 2 4 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 4 2 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 4 2 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 4 2 4 4
+                        *goto next
+            #$!{charlie5[3]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 1 4 3 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 4 3 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 4 3 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 4 3 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 1 4 3 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 4 3 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 4 3 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 4 3 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 1 4 3 3 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 4 3 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 4 3 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 4 3 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 1 4 3 4 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 4 3 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 4 3 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 4 3 4 4
+                        *goto next
+            #$!{charlie5[4]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 1 4 3 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 4 3 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 4 3 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 4 3 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 1 4 3 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 4 3 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 4 3 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 4 3 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 1 4 3 3 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 4 3 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 4 3 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 4 3 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 1 4 3 4 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 1 4 3 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 1 4 3 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 1 4 3 4 4
+                        *goto next
+    #$!{alpha5[2]}
+        #$!{bravo5[1]}
+            #$!{charlie5[1]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 2 1 1 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 1 1 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 1 1 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                            *gosub write 2 1 1 1 4
+                            *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 2 1 1 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 1 1 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 1 1 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 1 1 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 2 1 1 3 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 1 1 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 1 1 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 1 1 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 2 1 1 4 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 1 1 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 1 1 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 1 1 4 4
+                        *goto next
+            #$!{charlie5[2]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 2 1 2 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 1 2 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 1 2 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 1 2 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 2 1 2 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 1 2 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 1 2 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 1 2 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 2 1 2 3 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 1 2 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 1 2 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 1 2 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 2 1 2 4 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 1 2 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 1 2 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 1 2 4 4
+                        *goto next
+            #$!{charlie5[3]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 2 1 3 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 1 3 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 1 3 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 1 3 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 2 1 3 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 1 3 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 1 3 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 1 3 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 2 1 3 3 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 1 3 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 1 3 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 1 3 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 2 1 3 4 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 1 3 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 1 3 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 1 3 4 4
+                        *goto next
+            #$!{charlie5[4]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 2 1 3 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 1 3 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 1 3 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 1 3 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 2 1 3 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 1 3 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 1 3 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 1 3 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 2 1 3 3 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 1 3 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 1 3 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 1 3 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 2 1 3 4 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 1 3 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 1 3 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 1 3 4 4
+                        *goto next
+        #$!{bravo5[2]}
+            #$!{charlie5[1]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 2 2 1 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 2 1 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 2 1 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 2 1 1 4
+                            *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 2 2 1 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 2 1 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 2 1 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 2 1 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 2 2 1 3 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 2 1 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 2 1 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 2 1 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 2 2 1 4 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 2 1 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 2 1 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 2 1 4 4
+                        *goto next
+            #$!{charlie5[2]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 2 2 2 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 2 2 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 2 2 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 2 2 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 2 2 2 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 2 2 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 2 2 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 2 2 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 2 2 2 3 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 2 2 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 2 2 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 2 2 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 2 2 2 4 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 2 2 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 2 2 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 2 2 4 4
+                        *goto next
+            #$!{charlie5[3]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 2 2 3 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 2 3 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 2 3 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 2 3 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 2 2 3 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 2 3 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 2 3 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 2 3 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 2 2 3 3 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 2 3 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 2 3 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 2 3 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 2 2 3 4 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 2 3 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 2 3 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 2 3 4 4
+                        *goto next
+            #$!{charlie5[4]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 2 2 3 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 2 3 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 2 3 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 2 3 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 2 2 3 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 2 3 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 2 3 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 2 3 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 2 2 3 3 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 2 3 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 2 3 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 2 3 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 2 2 3 4 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 2 3 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 2 3 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 2 3 4 4
+                        *goto next
+        #$!{bravo5[3]}
+            #$!{charlie5[1]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 2 3 1 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 3 1 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 3 1 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 3 1 1 4
+                            *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 2 3 1 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 3 1 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 3 1 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 3 1 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 2 3 1 3 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 3 1 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 3 1 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 3 1 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 2 3 1 4 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 3 1 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 3 1 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 3 1 4 4
+                        *goto next
+            #$!{charlie5[2]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 2 3 2 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 3 2 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 3 2 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 3 2 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 2 3 2 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 3 2 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 3 2 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 3 2 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 2 3 2 3 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 3 2 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 3 2 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 3 2 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 2 3 2 4 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 3 2 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 3 2 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 3 2 4 4
+                        *goto next
+            #$!{charlie5[3]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 2 3 3 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 3 3 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 3 3 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 3 3 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 2 3 3 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 3 3 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 3 3 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 3 3 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 2 3 3 3 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 3 3 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 3 3 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 3 3 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 2 3 3 4 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 3 3 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 3 3 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 3 3 4 4
+                        *goto next
+            #$!{charlie5[4]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 2 3 3 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 3 3 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 3 3 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 3 3 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 2 3 3 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 3 3 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 3 3 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 3 3 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 2 3 3 3 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 3 3 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 3 3 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 3 3 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 2 3 3 4 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 3 3 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 3 3 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 3 3 4 4
+                        *goto next
+        #$!{bravo5[4]}
+            #$!{charlie5[1]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 2 4 1 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 4 1 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 4 1 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 4 1 1 4
+                            *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 2 4 1 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 4 1 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 4 1 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 4 1 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 2 4 1 3 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 4 1 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 4 1 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 4 1 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 2 4 1 4 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 4 1 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 4 1 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 4 1 4 4
+                        *goto next
+            #$!{charlie5[2]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 2 4 2 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 4 2 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 4 2 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 4 2 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 2 4 2 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 4 2 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 4 2 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 4 2 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 2 4 2 3 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 4 2 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 4 2 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 4 2 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 2 4 2 4 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 4 2 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 4 2 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 4 2 4 4
+                        *goto next
+            #$!{charlie5[3]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 2 4 3 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 4 3 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 4 3 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 4 3 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 2 4 3 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 4 3 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 4 3 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 4 3 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 2 4 3 3 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 4 3 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 4 3 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 4 3 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 2 4 3 4 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 4 3 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 4 3 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 4 3 4 4
+                        *goto next
+            #$!{charlie5[4]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 2 4 3 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 4 3 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 4 3 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 4 3 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 2 4 3 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 4 3 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 4 3 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 4 3 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 2 4 3 3 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 4 3 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 4 3 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 4 3 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 2 4 3 4 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 2 4 3 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 2 4 3 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 2 4 3 4 4
+                        *goto next
+    #$!{alpha5[3]}
+        #$!{bravo5[1]}
+            #$!{charlie5[1]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 3 1 1 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 1 1 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 1 1 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                            *gosub write 3 1 1 1 4
+                            *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 3 1 1 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 1 1 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 1 1 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 1 1 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 3 1 1 3 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 1 1 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 1 1 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 1 1 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 3 1 1 4 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 1 1 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 1 1 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 1 1 4 4
+                        *goto next
+            #$!{charlie5[2]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 3 1 2 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 1 2 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 1 2 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 1 2 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 3 1 2 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 1 2 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 1 2 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 1 2 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 3 1 2 3 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 1 2 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 1 2 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 1 2 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 3 1 2 4 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 1 2 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 1 2 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 1 2 4 4
+                        *goto next
+            #$!{charlie5[3]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 3 1 3 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 1 3 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 1 3 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 1 3 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 3 1 3 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 1 3 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 1 3 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 1 3 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 3 1 3 3 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 1 3 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 1 3 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 1 3 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 3 1 3 4 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 1 3 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 1 3 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 1 3 4 4
+                        *goto next
+            #$!{charlie5[4]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 3 1 3 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 1 3 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 1 3 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 1 3 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 3 1 3 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 1 3 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 1 3 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 1 3 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 3 1 3 3 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 1 3 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 1 3 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 1 3 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 3 1 3 4 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 1 3 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 1 3 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 1 3 4 4
+                        *goto next
+        #$!{bravo5[2]}
+            #$!{charlie5[1]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 3 2 1 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 2 1 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 2 1 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 2 1 1 4
+                            *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 3 2 1 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 2 1 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 2 1 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 2 1 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 3 2 1 3 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 2 1 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 2 1 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 2 1 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 3 2 1 4 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 2 1 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 2 1 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 2 1 4 4
+                        *goto next
+            #$!{charlie5[2]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 3 2 2 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 2 2 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 2 2 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 2 2 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 3 2 2 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 2 2 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 2 2 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 2 2 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 3 2 2 3 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 2 2 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 2 2 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 2 2 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 3 2 2 4 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 2 2 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 2 2 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 2 2 4 4
+                        *goto next
+            #$!{charlie5[3]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 3 2 3 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 2 3 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 2 3 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 2 3 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 3 2 3 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 2 3 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 2 3 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 2 3 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 3 2 3 3 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 2 3 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 2 3 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 2 3 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 3 2 3 4 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 2 3 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 2 3 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 2 3 4 4
+                        *goto next
+            #$!{charlie5[4]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 3 2 3 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 2 3 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 2 3 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 2 3 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 3 2 3 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 2 3 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 2 3 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 2 3 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 3 2 3 3 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 2 3 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 2 3 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 2 3 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 3 2 3 4 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 2 3 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 2 3 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 2 3 4 4
+                        *goto next
+        #$!{bravo5[3]}
+            #$!{charlie5[1]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 3 3 1 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 3 1 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 3 1 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 3 1 1 4
+                            *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 3 3 1 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 3 1 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 3 1 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 3 1 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 3 3 1 3 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 3 1 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 3 1 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 3 1 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 3 3 1 4 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 3 1 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 3 1 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 3 1 4 4
+                        *goto next
+            #$!{charlie5[2]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 3 3 2 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 3 2 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 3 2 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 3 2 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 3 3 2 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 3 2 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 3 2 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 3 2 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 3 3 2 3 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 3 2 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 3 2 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 3 2 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 3 3 2 4 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 3 2 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 3 2 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 3 2 4 4
+                        *goto next
+            #$!{charlie5[3]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 3 3 3 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 3 3 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 3 3 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 3 3 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 3 3 3 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 3 3 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 3 3 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 3 3 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 3 3 3 3 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 3 3 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 3 3 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 3 3 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 3 3 3 4 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 3 3 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 3 3 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 3 3 4 4
+                        *goto next
+            #$!{charlie5[4]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 3 3 3 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 3 3 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 3 3 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 3 3 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 3 3 3 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 3 3 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 3 3 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 3 3 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 3 3 3 3 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 3 3 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 3 3 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 3 3 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 3 3 3 4 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 3 3 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 3 3 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 3 3 4 4
+                        *goto next
+        #$!{bravo5[4]}
+            #$!{charlie5[1]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 3 4 1 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 4 1 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 4 1 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 4 1 1 4
+                            *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 3 4 1 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 4 1 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 4 1 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 4 1 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 3 4 1 3 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 4 1 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 4 1 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 4 1 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 3 4 1 4 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 4 1 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 4 1 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 4 1 4 4
+                        *goto next
+            #$!{charlie5[2]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 3 4 2 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 4 2 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 4 2 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 4 2 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 3 4 2 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 4 2 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 4 2 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 4 2 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 3 4 2 3 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 4 2 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 4 2 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 4 2 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 3 4 2 4 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 4 2 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 4 2 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 4 2 4 4
+                        *goto next
+            #$!{charlie5[3]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 3 4 3 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 4 3 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 4 3 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 4 3 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 3 4 3 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 4 3 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 4 3 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 4 3 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 3 4 3 3 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 4 3 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 4 3 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 4 3 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 3 4 3 4 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 4 3 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 4 3 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 4 3 4 4
+                        *goto next
+            #$!{charlie5[4]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 3 4 3 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 4 3 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 4 3 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 4 3 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 3 4 3 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 4 3 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 4 3 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 4 3 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 3 4 3 3 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 4 3 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 4 3 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 4 3 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 3 4 3 4 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 3 4 3 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 3 4 3 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 3 4 3 4 4
+                        *goto next
+    #$!{alpha5[4]}
+        #$!{bravo5[1]}
+            #$!{charlie5[1]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 4 1 1 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 1 1 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 1 1 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                            *gosub write 4 1 1 1 4
+                            *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 4 1 1 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 1 1 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 1 1 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 1 1 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 4 1 1 3 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 1 1 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 1 1 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 1 1 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 4 1 1 4 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 1 1 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 1 1 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 1 1 4 4
+                        *goto next
+            #$!{charlie5[2]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 4 1 2 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 1 2 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 1 2 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 1 2 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 4 1 2 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 1 2 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 1 2 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 1 2 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 4 1 2 3 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 1 2 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 1 2 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 1 2 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 4 1 2 4 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 1 2 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 1 2 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 1 2 4 4
+                        *goto next
+            #$!{charlie5[3]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 4 1 3 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 1 3 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 1 3 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 1 3 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 4 1 3 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 1 3 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 1 3 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 1 3 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 4 1 3 3 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 1 3 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 1 3 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 1 3 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 4 1 3 4 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 1 3 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 1 3 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 1 3 4 4
+                        *goto next
+            #$!{charlie5[4]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 4 1 3 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 1 3 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 1 3 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 1 3 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 4 1 3 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 1 3 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 1 3 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 1 3 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 4 1 3 3 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 1 3 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 1 3 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 1 3 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 4 1 3 4 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 1 3 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 1 3 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 1 3 4 4
+                        *goto next
+        #$!{bravo5[2]}
+            #$!{charlie5[1]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 4 2 1 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 2 1 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 2 1 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 2 1 1 4
+                            *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 4 2 1 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 2 1 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 2 1 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 2 1 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 4 2 1 3 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 2 1 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 2 1 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 2 1 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 4 2 1 4 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 2 1 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 2 1 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 2 1 4 4
+                        *goto next
+            #$!{charlie5[2]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 4 2 2 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 2 2 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 2 2 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 2 2 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 4 2 2 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 2 2 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 2 2 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 2 2 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 4 2 2 3 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 2 2 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 2 2 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 2 2 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 4 2 2 4 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 2 2 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 2 2 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 2 2 4 4
+                        *goto next
+            #$!{charlie5[3]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 4 2 3 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 2 3 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 2 3 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 2 3 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 4 2 3 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 2 3 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 2 3 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 2 3 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 4 2 3 3 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 2 3 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 2 3 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 2 3 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 4 2 3 4 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 2 3 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 2 3 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 2 3 4 4
+                        *goto next
+            #$!{charlie5[4]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 4 2 3 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 2 3 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 2 3 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 2 3 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 4 2 3 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 2 3 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 2 3 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 2 3 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 4 2 3 3 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 2 3 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 2 3 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 2 3 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 4 2 3 4 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 2 3 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 2 3 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 2 3 4 4
+                        *goto next
+        #$!{bravo5[3]}
+            #$!{charlie5[1]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 4 3 1 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 3 1 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 3 1 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 3 1 1 4
+                            *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 4 3 1 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 3 1 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 3 1 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 3 1 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 4 3 1 3 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 3 1 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 3 1 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 3 1 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 4 3 1 4 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 3 1 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 3 1 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 3 1 4 4
+                        *goto next
+            #$!{charlie5[2]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 4 3 2 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 3 2 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 3 2 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 3 2 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 4 3 2 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 3 2 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 3 2 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 3 2 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 4 3 2 3 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 3 2 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 3 2 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 3 2 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 4 3 2 4 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 3 2 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 3 2 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 3 2 4 4
+                        *goto next
+            #$!{charlie5[3]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 4 3 3 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 3 3 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 3 3 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 3 3 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 4 3 3 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 3 3 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 3 3 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 3 3 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 4 3 3 3 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 3 3 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 3 3 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 3 3 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 4 3 3 4 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 3 3 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 3 3 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 3 3 4 4
+                        *goto next
+            #$!{charlie5[4]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 4 3 3 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 3 3 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 3 3 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 3 3 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 4 3 3 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 3 3 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 3 3 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 3 3 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 4 3 3 3 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 3 3 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 3 3 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 3 3 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 4 3 3 4 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 3 3 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 3 3 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 3 3 4 4
+                        *goto next
+        #$!{bravo5[4]}
+            #$!{charlie5[1]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 4 4 1 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 4 1 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 4 1 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 4 1 1 4
+                            *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 4 4 1 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 4 1 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 4 1 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 4 1 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 4 4 1 3 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 4 1 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 4 1 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 4 1 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 4 4 1 4 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 4 1 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 4 1 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 4 1 4 4
+                        *goto next
+            #$!{charlie5[2]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 4 4 2 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 4 2 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 4 2 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 4 2 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 4 4 2 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 4 2 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 4 2 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 4 2 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 4 4 2 3 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 4 2 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 4 2 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 4 2 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 4 4 2 4 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 4 2 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 4 2 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 4 2 4 4
+                        *goto next
+            #$!{charlie5[3]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 4 4 3 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 4 3 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 4 3 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 4 3 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 4 4 3 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 4 3 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 4 3 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 4 3 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 4 4 3 3 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 4 3 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 4 3 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 4 3 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 4 4 3 4 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 4 3 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 4 3 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 4 3 4 4
+                        *goto next
+            #$!{charlie5[4]}
+                #$!{delta5[1]}
+                    #$!{echo5[1]}
+                        *gosub write 4 4 3 1 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 4 3 1 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 4 3 1 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 4 3 1 4
+                        *goto next
+
+                #$!{delta5[2]}
+                    #$!{echo5[1]}
+                        *gosub write 4 4 3 2 1
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 4 3 2 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 4 3 2 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 4 3 2 4
+                        *goto next
+                #$!{delta5[3]}
+                    #$!{echo5[1]}
+                        *gosub write 4 4 3 3 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 4 3 3 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 4 3 3 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 4 3 3 4
+                        *goto next
+                #$!{delta5[4]}
+                    #$!{echo5[1]}
+                        *gosub write 4 4 3 4 1 
+                        *goto next
+                    #$!{echo5[2]}
+                        *gosub write 4 4 3 4 2
+                        *goto next
+                    #$!{echo5[3]}
+                        *gosub write 4 4 3 4 3
+                        *goto next
+                    #$!{echo5[4]}
+                        *gosub write 4 4 3 4 4
+                        *goto next
+
+*comment -- WRITE ------------------------------------------
+*comment -- Sets the variables to the corresponding array value.
+*comment -- (a:number, b:number, c:number, d:number, e:number) -> (return_a:any?, return_b:any?, return_c:any?, return_d:any? , return_e:any?)
+*label write
+*params a b c d e
+
+*set return_a (alpha5[a])
+*set return_b (bravo5[b])
+*set return_c (charlie5[c])
+*set return_d (delta5[d])
+*set return_e (echo5[e])
+
+*return
+
+*label next
+*return

@@ -1,0 +1,41 @@
+[b]— DOCUMENTATION / USER GUIDE —[/b]
+
+1. Copy the choice_set into the folder with the rest of your game files.
+
+2. Rename the file to fit the theme of the set of choices, such as [i]'character_clothing_choiceset'[/i]
+
+3. Change the values in the corresponding Array to those you wish to use.
+
+4. In the choiceset scene file, change the names of the sets. These are the words on the same line as the [i]*choice[/i] command. These will be displayed as 'selecting a/an your_choiceset_name'
+
+5. Use [i]'*gosub_scene your_file_name start'[/i] to present the choiceset to the player.
+
+6. The return variables e.g. [i]'return_a'[/i], will be prefilled with the resulting text from the array. You can use these directly in the text, use them to parse an if-else block, or set them into other variables which are easier to remember e.g. [i]'set plyr_hair_col return_a'[/i].
+
+[b]— ADVANCED —[/b]
+
+6. To send the results of the choices directly to specific variables, go to the very bottom of the scene file. In the subroutine [i]'write'[/i] will be a handful of '[i]set[/i]' commands. Simply change the variable name to wherever you want it to go, such as a created variable in startup.
+
+7. If you wish to use the raw number values from the choiceset then you can edit the [i]'write'[/i] subroutine to handle the params differently. This may be especially handy if you wish to use multi-replace to parse responses, or perform number operations such as if setting/modifying stats.
+
+8. The example set up includes four options per choiceset. If you wish to add or remove options, you will need to amend the code in the file. 
+*line_break
+— To remove options, you can create a [i]*temp in_use false[/i] variable at the top of the file after the label [i]'start'[/i] then [i]ctrl+f[/i] to find every instance of the option to remove and add [i]*if(in_use)[/i] to the start of the line. 
+*line_break
+— For example, select the option line containing [i]'charlie[3]'[/i], [i]ctrl+f[/i], replace with [i]'*if(in_use)' + the rest of the original option line[/i], this will mean all charlie-level third options will not be presented to the player. 
+*line_break
+— Adding options requires a lot of copy and pasting into each choices, and amending the range of values sent to the subroutine [i]'write'[/i] at the end of each file. This is tedious, with a high potential for errors. The player is also unlikely to appreciate scrolling through reams of options. Personally, I would recommend you find another solution.
+
+9. If you wish to use the same size of choiceset again, follow the steps as above, but now you will need to create a second array in the same format as the first.
+*line_break
+— You will also need to amend every entry in the choiceset scene file to the new arrays' names. This can be done easily using find and replace. For example, to change all [i]'alpha3' ctrl+f[/i], then replace all with [i]'hair3'[/i]. This will also change the [i]gosub write[/i], at the bottom of the file.
+*line_break
+— All values will still be returned to [i]'return_a', 'return_b', etc…[/i] unless otherwise specified in the [i]'write'[/i] subroutine.
+
+[b]— Questions and Suggestions —[/b]
+
+If you have any questions about, or suggestions on how to improve, this resource, feel free to contact me on the forum.
+
+Thanks.
+
+[i]CodedQuill[/i]

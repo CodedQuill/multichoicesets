@@ -1,0 +1,117 @@
+*title Multichoice Sets
+*author CodedQuill
+
+*comment -- USER GUIDE IS ON STATS SCREEN -- choicescript_stats.txt
+    
+
+*comment -- Control Variables ---------------------------------------------
+*create implicit_control_flow true
+
+*comment -- Return Variables ----------------------------------------------
+*create return_a 1
+*create return_b 1
+*create return_c 1
+*create return_d 1
+*create return_e 1
+*create return_f 1
+
+*comment -- EXAMPLE Array Variables -----------------------------------------------
+*comment 3-choices-set -------------------------
+*create_array alpha3 4 "swordfighting" "fisticuffs" "drinking" "firearms"
+*create_array bravo3 4 "earth" "fire" "air" "water" 
+*create_array charlie3 4 "raven" "cat" "frog" "raccoon"
+*comment 4-choices-set -------------------------
+*create_array alpha4 4 "pearl" "diamond" "tacky" "studded collar"
+*create_array bravo4 4 "golden" "diamond" "hoops" "bone" 
+*create_array charlie4 4 "no" "a sailing ship" "an anchor" "a flower"
+*create_array delta4 4 "whitenened" "braced" "filed" "missing"
+*comment 5-choices-set -------------------------
+*create_array alpha5 4 "black" "brown" "blonde" "red"
+*create_array bravo5 4 "brown" "blue" "green" "amber" 
+*create_array charlie5 4 "dark" "tan" "light" "pale"
+*create_array delta5 4 "purple" "blue" "red" "ivory"
+*create_array echo5 4 "rainbow" "golden" "inky"  "octarine"
+*comment 6-choices-set -------------------------
+*create_array alpha6 4 "nothing" "combat boots" "sandals" "high-heels"
+*create_array bravo6 4 "nothing" "cargo pants" "trousers" "stockings" 
+*create_array charlie6 4 "nothing" "chest rig" "smock" "string vest"
+*create_array delta6 4 "nothing" "baseball cap" "turban" "top hat"
+*create_array echo6 4 "nothing" "respirator" "shemagh"  "silk scarf"
+*create_array foxtrot6 4 "nothing" "tactical gloves" "driving gloves" "fingerless gloves"
+
+
+*comment -- RUN EXAMPLE -----------------------------------------------------
+Welcome.
+*line_break
+This resource will allow you to include multiple choices on one screen.
+*line_break
+It has been structured to make this process as pain free as possible. This means by automating much of the tedious structuring of choice_sets and providing easy to edit arrays and a subroutine to deal with the consequences.
+*line_break
+A [b]user-guide[/b] is available on the [b]stats screen[/b].
+*line_break
+A series of [b]examples[/b] have been provided in the [b]supporting .txt files[/b].
+*line_break
+You can [b]play[/b] the examples be clicking [b]next[/b].
+
+*page_break
+
+[i]Example of 3 choices:[/i]
+*line_break
+[i]84 words; 235 lines of code.[/i]
+
+Pick your specialities:
+
+*gosub_scene 3_choices start
+
+Your combat style was [i]${return_a}[/i], and your chosen elemental force was [i]${return_b}[/i]. Your familiar was a [i]${return_c}[/i].
+
+[i]Example of 4 choices:[/i]
+*line_break
+[i]340 words; 876 lines of code.[/i]
+
+Now, pick adornments:
+
+*gosub_scene 4_choices start
+
+You wore a [i]${return_a}[/i] necklace, and a pair of [i]${return_b}[/i] earrings. You had [i]${return_c}[/i] tattoo and your teeth were [i]${return_d}[/i].
+
+[i]Example of 5 choices:[/i]
+*line_break
+[i]1364 words; 3501 lines of code.[/i]
+
+Pick your color scheme:
+
+*gosub_scene 5_choices start
+
+Your hair was [i]${return_a}[/i], complemented by [i]${return_b}[/i] eyes, against your [i]${return_c}[/i] skin. Your nails were [i]${return_d}[/i] in colour, but most startling of all your aura was [i]${return_e}[/i].
+
+[i]Example of 6 choices:[/i]
+*line_break
+[i]5460 words; 13934 lines of code.[/i]
+
+Now, pick your attire:
+
+*gosub_scene 6_choices start
+
+You were wearing [i]${return_a}[/i] on your feet, [i]${return_b}[/i] on your legs, a [i]${return_c}[/i] covered your torso, on your head was a [i]${return_d}[/i], and covering your face a [i]${return_e}[/i], and finally you wore [i]${return_f}[/i] on your hands.
+
+*page_break Thoughts…
+
+Here are a few thoughts I had whilst developing this:
+
+1. WHY THE HECK AM I DOING THIS!
+*line_break
+[i]I did this, so you don't have to. It is mind-numbingly tedious even using cut+paste and find+replace shortcuts in VScode with collapsible tabs. The endless scrolling, and fixing the indenting — there is a reason I prefer programming languages with closures.[/i]
+
+2. SURELY THERE IS AN EASIER WAY?
+*line_break
+[i]Unfortunately if you want multiple choices on a page… No, not in (unmodded) ChoiceScript. It is far easier to just have multiple pages in a sequence, a lot more straightforward to write and maintain. So don't go and rush out to start implementing this unless you actually have a use case for it![/i]
+
+3. SO WHY? WHAT IS THE BENEFIT?
+*line_break
+[i]There is a huge difference between, a player seeing information and choices sequentially, than there is the player seeing them in parallel. In sequential systems you don't know what will be asked next, and so might not know which to choose or the consequences of the choice. Often this is intentional from a writer's point of view, but for some things, like picking an ensemble for a party, it seems more fitting to allow the player to consider multiple choices at the same time and imagine how the interaction of their choices will work out.[/i]
+
+4. IS THIS JUST FOR CHARACTER CREATION THEN?
+[i]Whilst character creation systems may stand to benefit through reducing the number of pages required to set up, there are many other situations where making multiple choices simultaneously could greatly enhance the player's experience, such as picking inventory items. The difficulty is of course for the author to parse all the different options in a meaningful way. The largest available here is a 6-multichoice set which has 4^6 (= 4096) unique outcomes. But this is only a selection of 6 things from six sets of 4.[/i]
+
+*page_break The End
