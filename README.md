@@ -1,7 +1,7 @@
 # multichoicesets
 Example code for creating multiple choices on a single page in ChoiceScript projects
 
-# — DOCUMENTATION / USER GUIDE —
+## — DOCUMENTATION / USER GUIDE —
 
 1. Copy the choice_set into the folder with the rest of your game files.
 
@@ -15,7 +15,7 @@ Example code for creating multiple choices on a single page in ChoiceScript proj
 
 6. The return variables e.g. *'return_a'*, will be prefilled with the resulting text from the array. You can use these directly in the text, use them to parse an if-else block, or set them into other variables which are easier to remember e.g. *'set plyr_hair_col return_a'*.
 
-# — ADVANCED —
+### — ADVANCED —
 
 6. To send the results of the choices directly to specific variables, go to the very bottom of the scene file. In the subroutine *'write'* will be a handful of '*set*' commands. Simply change the variable name to wherever you want it to go, such as a created variable in startup.
 
@@ -35,7 +35,7 @@ Example code for creating multiple choices on a single page in ChoiceScript proj
 *line_break
 — All values will still be returned to *'return_a', 'return_b', etc…* unless otherwise specified in the *'write'* subroutine.
 
-# — Questions and Suggestions —
+### — Questions and Suggestions —
 
 If you have any questions about, or suggestions on how to improve, this resource, feel free to contact me on the forum.
 
