@@ -53,6 +53,9 @@ A series of [b]examples[/b] have been provided in the [b]supporting .txt files[/
 *line_break
 You can [b]play[/b] the examples be clicking [b]next[/b].
 
+All files are available under the CC0 license on github : 
+*link https://github.com/CodedQuill/multichoicesets
+
 *page_break
 
 [i]Example of 3 choices:[/i]

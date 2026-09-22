@@ -1,5 +1,8 @@
 [b]— DOCUMENTATION / USER GUIDE —[/b]
 
+All files are available under the [i]CC0 license[/i] on [i]github[/i] : 
+*link https://github.com/CodedQuill/multichoicesets
+
 1. Copy the choice_set into the folder with the rest of your game files.
 
 2. Rename the file to fit the theme of the set of choices, such as [i]'character_clothing_choiceset'[/i]
