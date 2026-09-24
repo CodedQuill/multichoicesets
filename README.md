@@ -21,18 +21,18 @@ Example code for creating multiple choices on a single page in ChoiceScript proj
 
 7. If you wish to use the raw number values from the choiceset then you can edit the *'write'* subroutine to handle the params differently. This may be especially handy if you wish to use multi-replace to parse responses, or perform number operations such as if setting/modifying stats.
 
-8. The example set up includes four options per choiceset. If you wish to add or remove options, you will need to amend the code in the file. 
-*line_break
-— To remove options, you can create a **temp in_use false* variable at the top of the file after the label *'start'* then *ctrl+f* to find every instance of the option to remove and add **if(in_use)* to the start of the line. 
-*line_break
-— For example, select the option line containing *'charlie[3]'*, *ctrl+f*, replace with *'*if(in_use)' + the rest of the original option line*, this will mean all charlie-level third options will not be presented to the player. 
-*line_break
+8. The example set up includes four options per choiceset. If you wish to add or remove options, you will need to amend the code in the file.
+
+— To remove options, you can create a **temp in_use false* variable at the top of the file after the label *'start'* then *ctrl+f* to find every instance of the option to remove and add **if(in_use)* to the start of the line.
+
+— For example, select the option line containing *'charlie[3]'*, *ctrl+f*, replace with *'*if(in_use)' + the rest of the original option line*, this will mean all charlie-level third options will not be presented to the player.
+
 — Adding options requires a lot of copy and pasting into each choices, and amending the range of values sent to the subroutine *'write'* at the end of each file. This is tedious, with a high potential for errors. The player is also unlikely to appreciate scrolling through reams of options. Personally, I would recommend you find another solution.
 
-9. If you wish to use the same size of choiceset again, follow the steps as above, but now you will need to create a second array in the same format as the first.
-*line_break
+10. If you wish to use the same size of choiceset again, follow the steps as above, but now you will need to create a second array in the same format as the first.
+
 — You will also need to amend every entry in the choiceset scene file to the new arrays' names. This can be done easily using find and replace. For example, to change all *'alpha3' ctrl+f*, then replace all with *'hair3'*. This will also change the *gosub write*, at the bottom of the file.
-*line_break
+
 — All values will still be returned to *'return_a', 'return_b', etc…* unless otherwise specified in the *'write'* subroutine.
 
 ### — Questions and Suggestions —
